@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamus Dayak Tobak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>᯽ Kamus Dayak Tobak</h2>
+    <p>Kamus Digital Bahasa Daerah</p>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>Kenali Bahasa<br>Dayak Tobak</h1>
+        <p>Temukan kosakata Bahasa Dayak Tobak
+        dan artinya dalam Bahasa Indonesia.</p>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Cari kosakata..."
+        >
+    </section>
+
+    <section class="dictionary">
+        <h2>Daftar Kosakata</h2>
+        <p id="count">0 kosakata</p>
+
+        <div id="alphabet"></div>
+        <div id="words" class="word-list"></div>
+    </section>
+
+    <section class="add-section">
+        <h2>Tambah Kosakata</h2>
+
+        <form id="wordForm">
+            <label>Bahasa Dayak Tobak</label>
+            <input
+                type="text"
+                id="dayakWord"
+                placeholder="Masukkan kata"
+                required
+            >
+
+            <label>Arti Bahasa Indonesia</label>
+            <input
+                type="text"
+                id="indoMeaning"
+                placeholder="Masukkan arti"
+                required
+            >
+
+            <button type="submit">Simpan Kosakata</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    Kamus Elektronik Bahasa Dayak Tobak
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
