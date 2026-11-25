@@ -1,0 +1,12 @@
+{
+  "id": "/kamus-dayak-tobak/",
+  "name": "Kamus Elektronik Dayak Tobak",
+  "short_name": "Kamus Dayak",
+  "description": "Kamus elektronik untuk mempelajari dan melestarikan Bahasa Dayak Tobak.",
+  "start_url": "/kamus-dayak-tobak/",
+  "scope": "/kamus-dayak-tobak/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#245c45",
+  "orientation": "portrait"
+}
